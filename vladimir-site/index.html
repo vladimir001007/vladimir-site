@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Владимир | Motocross Rider</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#0b0d12;
+color:white;
+font-family:Arial,sans-serif;
+overflow-x:hidden;
+}
+
+main{
+max-width:1200px;
+margin:auto;
+padding:40px;
+}
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+min-height:100vh;
+}
+
+.badge{
+display:inline-block;
+padding:10px 20px;
+border-radius:50px;
+background:rgba(255,140,0,.15);
+border:1px solid rgba(255,140,0,.3);
+color:#ff9d00;
+margin-bottom:20px;
+font-weight:bold;
+}
+
+h1{
+font-size:90px;
+line-height:1;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+line-height:1.6;
+color:#cfcfcf;
+margin-bottom:25px;
+}
+
+.chips{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-bottom:30px;
+}
+
+.chips span{
+padding:10px 16px;
+background:#1b2130;
+border-radius:30px;
+}
+
+.buttons{
+display:flex;
+gap:15px;
+}
+
+.btn{
+text-decoration:none;
+padding:16px 30px;
+border-radius:14px;
+font-weight:bold;
+transition:.3s;
+display:inline-block;
+border:1px solid rgba(255,255,255,.15);
+}
+
+.btn:hover{
+transform:translateY(-4px);
+box-shadow:0 15px 35px rgba(0,0,0,.4);
+}
+
+.telegram{
+background:#229ED9;
+color:white;
+}
+
+.vk{
+background:#0077FF;
+color:white;
+}
+
+.instagram{
+background:linear-gradient(
+45deg,
+#f09433,
+#e6683c,
+#dc2743,
+#cc2366,
+#bc1888
+);
+color:white;
+}
+.photo-wrap{
+background:#111827;
+padding:15px;
+border-radius:25px;
+box-shadow:0 0 40px rgba(0,0,0,.5);
+}
+
+.photo-wrap img{
+width:100%;
+height:650px;
+object-fit:cover;
+border-radius:20px;
+display:block;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+margin-top:80px;
+}
+
+.card{
+background:#111827;
+padding:30px;
+border-radius:20px;
+}
+
+.card h3{
+margin-bottom:15px;
+color:#ff9d00;
+}
+
+footer{
+text-align:center;
+padding:60px 20px;
+color:#777;
+}
+
+@media(max-width:900px){
+
+.hero{
+grid-template-columns:1fr;
+padding-top:40px;
+}
+
+h1{
+font-size:60px;
+}
+
+.photo-wrap img{
+height:500px;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+}
+</style>
+
+</head>
+<body>
+
+<main>
+
+<div class="hero">
+
+<div>
+
+<div class="badge">Motocross Rider</div>
+
+<h1>Владимир</h1>
+
+<p>
+Сайт спортсмена, который занимается мотокроссом,
+любит скорость, трассу и сильный характер.
+</p>
+
+<div class="chips">
+<span>Мотокросс</span>
+<span>Скорость</span>
+<span>Дисциплина</span>
+<span>Premium Dark</span>
+</div>
+
+<div class="buttons">
+
+<a href="https://t.me/kupegt"
+class="btn telegram"
+target="_blank">
+📱 Telegram
+</a>
+
+<a href="https://vk.ru/id657423655"
+class="btn vk"
+target="_blank">
+🔵 VK
+</a>
+
+<a href="https://www.instagram.com/moscow_kayovod"
+class="btn instagram"
+target="_blank">
+📸 Instagram
+</a>
+
+</div>
+
+</div>
+
+<div class="photo-wrap">
+<img src="IMG_10101.jpg" alt="Владимир">
+</div>
+
+</div>
+
+<section id="about">
+
+<div class="cards">
+
+<div class="card">
+<h3>🏍 Спорт</h3>
+<p>
+Активно занимаюсь мотокроссом и постоянно
+развиваю свои навыки управления мотоциклом.
+</p>
+</div>
+
+<div class="card">
+<h3>🔥 Цель</h3>
+<p>
+Совершенствоваться, участвовать в соревнованиях
+и достигать новых результатов.
+</p>
+</div>
+
+<div class="card">
+<h3>⚡ Характер</h3>
+<p>
+Упорство, дисциплина и любовь к скорости помогают
+двигаться только вперёд.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<footer id="contact">
+© Владимир | Motocross Rider
+</footer>
+
+</main>
+
+</body>
+</html>
